@@ -1,5 +1,7 @@
 <h1 align="center">¡HOLA  VIENBENIDOS A MI PERFIL DE GITHUB - SYSTEMS CODE! </h1>
 
+
+<!------------------------------------------------- --------------------------------------------------------------------------------------------
 <!-- ======= ENCABEZADO CON TIPING ======= -->
 <div align="center">
   <!-- Texto animado -->
@@ -9,24 +11,6 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0ea5e9,100:6366f1&height=8&section=header"/>
 </div>
 
-<!-- ======= BADGES RÁPIDOS ======= -->
-<div align="center">
-  <!-- Reemplaza con tus enlaces -->
-  <a href="mailto:tu_correo@example.com">
-    <img src="https://img.shields.io/badge/Email-Contactar-informational?style=for-the-badge&logo=gmail" alt="Email"/>
-  </a>
-  <a href="https://www.linkedin.com/in/TU_USUARIO" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-S%C3%ADgueme-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
-  </a>
-  <a href="https://antony.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Portafolio-Online-success?style=for-the-badge&logo=vercel" alt="Portafolio"/>
-  </a>
-  <a href="https://github.com/TU_USUARIO?tab=followers" target="_blank">
-    <img src="https://img.shields.io/github/followers/TU_USUARIO?style=for-the-badge" alt="Followers"/>
-  </a>
-</div>
-
-<br/>
 
 <!-- ======= SOBRE MÍ ======= -->
 <div>
@@ -37,6 +21,10 @@
     <li>🚀 Objetivo: construir proyectos útiles con impacto social</li>
   </ul>
 </div>
+
+
+<!------------------------------------------------- --------------------------------------------------------------------------------------------
+
 
 <!-- ======= TECNOLOGÍAS ======= -->
 <h2>🧰 Tecnologías</h2>
@@ -56,35 +44,79 @@
 
 <br/>
 
+
+
+<!------------------------------------------------- --------------------------------------------------------------------------------------------
+
 <!-- ======= ESTADÍSTICAS ======= -->
 <h2>📊 Estadísticas</h2>
+
+<table align="center">
+  <tr>
+    <td>
+      <!-- Estadísticas generales -->
+      <img 
+           src="https://github-readme-stats.vercel.app/api?username=antonyyomar-dev&show_icons=true&theme=tokyonight&rank_icon=github&hide_border=true" 
+           height="160" 
+           alt="GitHub Stats" />
+    </td>
+    <td>
+      <!-- Racha de commits -->
+      <img 
+           src="https://streak-stats.demolab.com?user=antonyyomar-dev&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" 
+           height="160" 
+           alt="GitHub Streak" />
+    </td>
+    <td>
+      <!-- Lenguajes más usados -->
+      <img 
+           src="https://github-readme-stats.vercel.app/api/top-langs/?username=antonyyomar-dev&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" 
+           height="160" 
+           alt="Top Languages" />
+    </td>
+  </tr>
+</table>
+
+
+
+<!------------------------------------------------- --------------------------------------------------------------------------------------------
+
+<!-- ======= PROYECTOS DESTACADOS ======= -->
+<h2>🚀 Proyectos Destacados</h2>
+
 <div align="center">
-  <!-- Reemplaza TU_USUARIO -->
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=transparent&rank_icon=percentile" alt="Stats"/>
-  <img height="165" src="https://streak-stats.demolab.com?user=TU_USUARIO&theme=transparent" alt="Streak"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact&theme=transparent" alt="Top Langs"/>
+
+  <!-- Proyecto 1 -->
+  <a href="#">
+    <img 
+      src="https://img.shields.io/badge/Sistema%20de%20Biblioteca-En%20Desarrollo-yellow?style=for-the-badge&logo=github" 
+      alt="Sistema de Biblioteca"/>
+  </a>
+
+  <!-- Proyecto 2 -->
+  <a href="#">
+    <img 
+      src="https://img.shields.io/badge/App%20de%20Gestión%20Escolar-En%20Desarrollo-yellow?style=for-the-badge&logo=github" 
+      alt="App de Gestión Escolar"/>
+  </a>
+
+  <!-- Proyecto 3 -->
+  <a href="#">
+    <img 
+      src="https://img.shields.io/badge/Sistema%20de%20Préstamos-En%20Desarrollo-yellow?style=for-the-badge&logo=github" 
+      alt="Sistema de Préstamos"/>
+  </a>
+
 </div>
 
-<!-- ======= PROYECTOS DESTACADOS (CARDS) ======= -->
-<h2>🚀 Proyectos Destacados</h2>
-<!-- Cambia los enlaces y nombres a tus repos -->
-<a href="https://github.com/TU_USUARIO/NOMBRE_REPO_1">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=TU_USUARIO&repo=NOMBRE_REPO_1&theme=transparent" alt="Repo 1"/>
-</a>
-<a href="https://github.com/TU_USUARIO/NOMBRE_REPO_2">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=TU_USUARIO&repo=NOMBRE_REPO_2&theme=transparent" alt="Repo 2"/>
-</a>
 
-<br/><br/>
-
+<!------------------------------------------------- --------------------------------------------------------------------------------------------
 <!-- ======= CTA ======= -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366f1,100:0ea5e9&height=8&section=footer"/>
-  <p>💌 ¿Colaboramos? <a href="mailto:tu_correo@example.com">Escríbeme</a> o abre un issue en mis repos.</p>
+  <p>💌 ¿Colaboramos? <a href="https://www.instagram.com/antonyyomar002/?__pwa=1">Escríbeme</a> o abre un issue en mis repos.</p>
 </div>
-
-
-
+<!------------------------------------------------- -------------------------------------------------------------------------------------------- -->
 
 
 
@@ -95,3 +127,7 @@
 | Star Geographic Distribution | Star History |
 | ----------- | ----------- |
 |<img src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-map/thumbnail.png?activity=stars&repo_id=41986369&image_size=auto" />|<img src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history/thumbnail.png?repo_id=41986369&image_size=auto" />|
+
+<!------------------------------------------------- -------------------------------------------------------------------------------------------- -->
+
+
