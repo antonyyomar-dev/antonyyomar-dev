@@ -5,7 +5,8 @@
 <!-- ======= ENCABEZADO CON TIPING ======= -->
 <div align="center">
   <!-- Texto animado -->
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Hola%2C+soy+Antony+Yomar+%F0%9F%91%8B;Desarrollador+en+formaci%C3%B3n;Amante+del+c%C3%B3digo+y+el+aprendizaje+constante" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Hello%2C+I'm+Antony+Yomar+%F0%9F%91%8B;Developer+in+training;Lover+of+code+and+constant+learning" alt="Typing SVG"
+ />
   
   <!-- Banner sutil -->
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0ea5e9,100:6366f1&height=8&section=header"/>
