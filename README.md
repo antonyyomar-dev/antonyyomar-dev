@@ -1,4 +1,4 @@
-<h1 align="center">¡HOLA  BIENVENIDOS A MI PERFIL DE GITHUB - SYSTEMS CODE! </h1>
+<h1 align="center">¡Hello welcome to my  GitHub profile - System Code! </h1>
 
 
 <!------------------------------------------------- --------------------------------------------------------------------------------------------
@@ -14,11 +14,11 @@
 
 <!-- ======= SOBRE MÍ ======= -->
 <div>
-  <h2>👨‍💻 Sobre mí</h2>
+  <h2>👨‍💻 About me </h2>
   <ul>
-    <li>🎓 Estudiante de Ingeniería de Sistemas en la UPC</li>
-    <li>💡 Intereses: Python, Java, ciencia de datos y automatización</li>
-    <li>🚀 Objetivo: construir proyectos útiles con impacto social</li>
+    <li>🎓 Systems Engineering student at UPC University </li>
+    <li>💡 Interests: Python, Java, data science, and automation</li>
+    <li>🚀 Goal: to build useful projects with social impact</li>
   </ul>
 </div>
 
@@ -27,7 +27,7 @@
 
 
 <!-- ======= TECNOLOGÍAS ======= -->
-<h2>🧰 Tecnologías</h2>
+<h2>🧰 technologies</h2>
 <div>
   <!-- Íconos devicon (puedes quitar/añadir) -->
   <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/>
