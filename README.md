@@ -50,7 +50,7 @@
 <!------------------------------------------------- --------------------------------------------------------------------------------------------
 
 <!-- ======= ESTADÍSTICAS ======= -->
-<h2>📊 Estadísticas</h2>
+<h2>📊 GitHub Statistics </h2>
 
 <table align="center">
   <tr>
@@ -83,7 +83,7 @@
 <!------------------------------------------------- --------------------------------------------------------------------------------------------
 
 <!-- ======= PROYECTOS DESTACADOS ======= -->
-<h2>🚀 Proyectos Destacados</h2>
+<h2>🚀 Proyects </h2>
 
 <div align="center">
 
@@ -115,7 +115,7 @@
 <!-- ======= CTA ======= -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366f1,100:0ea5e9&height=8&section=footer"/>
-  <p>💌 ¿Colaboramos? <a href="https://www.instagram.com/antonyyomar002/?__pwa=1">Escríbeme</a> o abre un issue en mis repos.</p>
+  <p>💌 Shall we collaborate? <a href="https://www.instagram.com/antonyyomar002/?__pwa=1">Write me</a> or open a issue in my repository.</p>
 </div>
 <!------------------------------------------------- -------------------------------------------------------------------------------------------- -->
 
