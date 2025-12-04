@@ -1,4 +1,4 @@
-Query 1: Obtener todos los vendedores que tienen una reputación mayor o igual a 4.5.
+// Query 1: Obtener todos los vendedores que tienen una reputación mayor o igual a 4.5.
 
 use("SubaTecc");
 db.detalle_vendedor.find({
@@ -6,7 +6,7 @@ db.detalle_vendedor.find({
 })
 
 
-Query 2:Contar el número total de subastas finalizadas, agrupadas por el año de su fecha de inicio
+// Query 2:Contar el número total de subastas finalizadas, agrupadas por el año de su fecha de inicio
 
 use('SubaTecc')
 db.subasta.aggregate([
@@ -21,7 +21,7 @@ db.subasta.aggregate([
 ])
 
 
-Query 3: Mostrar los compradores junto con la cantidad de subastas que han ganado.
+// Query 3: Mostrar los compradores junto con la cantidad de subastas que han ganado.
 
 use("SubaTecc");
 db.detalle_subasta.aggregate([
@@ -45,7 +45,7 @@ db.detalle_subasta.aggregate([
 
 
 
-Query 4:Mostrar los compradores que han realizado más de 3 ofertas en total.
+// Query 4:Mostrar los compradores que han realizado más de 3 ofertas en total.
 
 use("SubaTecc");
 db.detalle_subasta.aggregate([
@@ -62,7 +62,7 @@ db.detalle_subasta.aggregate([
 
 
 
-Query 5: Mostrar los vendedores que tienen al menos un producto subastado en la categoría “Electrohogar”.
+// Query 5: Mostrar los vendedores que tienen al menos un producto subastado en la categoría “Electrohogar”.
 
 use("SubaTecc");
 db.detalle_subasta.aggregate([
@@ -76,3 +76,4 @@ db.detalle_subasta.aggregate([
     }
   }
 ])
+
