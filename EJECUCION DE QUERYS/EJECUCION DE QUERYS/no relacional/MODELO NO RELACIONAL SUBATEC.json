@@ -1,0 +1,1056 @@
+{
+  "modelName": "",
+  "collections": [
+    {
+      "collectionName": "subasta",
+      "type": "object",
+      "properties": [
+        {
+          "name": "_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "GUID": "2c79a2a5-899d-4bcb-bde1-4a804ccaae7e",
+          "primaryKey": true,
+          "required": true,
+          "error": {},
+          "childRelationships": [
+            "29d7feef-e3d8-48fe-8aff-c2d389ffe638"
+          ]
+        },
+        {
+          "name": "producto",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "array",
+          "properties": [
+            {
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "document",
+              "properties": [
+                {
+                  "name": "id",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "objectId",
+                  "GUID": "842d5beb-7366-4cf9-891f-03d72c3b3cf0",
+                  "required": true,
+                  "error": {}
+                },
+                {
+                  "name": "nombre_producto",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "string",
+                  "GUID": "a6c996b6-3e9a-409d-8566-01bd11ff1248",
+                  "required": true,
+                  "error": {}
+                },
+                {
+                  "name": "categoria",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "string",
+                  "GUID": "ee83bc31-bb11-4163-ac5a-20fa9421c0b7",
+                  "required": true,
+                  "error": {}
+                }
+              ],
+              "additionalProperties": false,
+              "error": {},
+              "GUID": "d9aced45-7a64-4a73-a31f-44ce130dbcc2",
+              "arrayItem": true
+            }
+          ],
+          "additionalItems": true,
+          "GUID": "edc7443c-caca-43ad-855e-22d6f15d240b",
+          "error": {}
+        },
+        {
+          "name": "fecha_inicio",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "date",
+          "primaryKey": false,
+          "GUID": "c4928674-2efe-4361-a485-8208ba7e1ff3",
+          "required": true,
+          "error": {}
+        },
+        {
+          "name": "fecha_fin",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "date",
+          "primaryKey": false,
+          "GUID": "d125f823-b2da-4ce6-8e12-0995e16e240c",
+          "required": true,
+          "error": {}
+        },
+        {
+          "name": "precio_actual",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "numeric",
+          "error": {},
+          "required": true,
+          "GUID": "f995f45b-444f-4324-b1c7-75931bc239a0"
+        },
+        {
+          "name": "estado",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "ea9b2159-3cd6-44d4-a327-a16777564495",
+          "required": true,
+          "error": {}
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "240f0772-1465-4099-9736-c2f1ecf571b0"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "validationLevel": "Off",
+      "validationAction": "Warn",
+      "storageEngineName": "WiredTiger",
+      "collectionUsers": [],
+      "indexes": [],
+      "collation": {},
+      "sharding": {
+        "unique": true,
+        "collation": "null"
+      },
+      "GUID": "895c6e35-41c5-4591-a374-eedec299088c",
+      "bucketId": "f20a45ee-b591-470e-88fe-78362e9e3d4b",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    },
+    {
+      "collectionName": "detalle_subasta",
+      "type": "object",
+      "properties": [
+        {
+          "name": "_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "primaryKey": true,
+          "required": true,
+          "GUID": "5d8182da-b84f-409e-9f48-e93da20a81d2"
+        },
+        {
+          "name": "producto",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "array",
+          "properties": [
+            {
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "document",
+              "properties": [
+                {
+                  "name": "_id",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "objectId",
+                  "GUID": "eff4dad2-e294-4a41-9714-3e65797e0da3",
+                  "required": true,
+                  "error": {}
+                },
+                {
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "string",
+                  "GUID": "a154e8b6-737b-45e2-9e23-6012c7e7b295",
+                  "name": "nombre_producto ",
+                  "required": true,
+                  "error": {}
+                },
+                {
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "string",
+                  "GUID": "fbd7c52c-fa46-418e-8bd0-05e5170d1b14",
+                  "name": "categoria",
+                  "required": true,
+                  "error": {}
+                },
+                {
+                  "name": "descripcion",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "string",
+                  "GUID": "e2b0ab83-39c4-4aa8-9bf9-505d1cd22329",
+                  "error": {}
+                },
+                {
+                  "name": "vendedor",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "document",
+                  "properties": [
+                    {
+                      "name": "_id",
+                      "hackoladeMeta": {},
+                      "isActivated": true,
+                      "type": "objectId",
+                      "error": {},
+                      "required": true,
+                      "GUID": "58e4fcd7-1a78-439b-8f58-b2f9d43b8b27",
+                      "childRelationships": [
+                        "45c137dc-2693-4a94-b350-6b004f38626a",
+                        "151446e8-5537-454d-96ef-f6e7982b1cbd"
+                      ]
+                    },
+                    {
+                      "hackoladeMeta": {},
+                      "isActivated": true,
+                      "type": "string",
+                      "GUID": "adf3c6e8-6c28-4b17-8086-f994dc2e5d36",
+                      "name": "nombre",
+                      "required": true,
+                      "error": {}
+                    },
+                    {
+                      "name": "reputacion_promedio",
+                      "hackoladeMeta": {},
+                      "isActivated": true,
+                      "type": "numeric",
+                      "GUID": "652e3e56-f467-4bfe-b4cd-32ae448273a7",
+                      "required": false,
+                      "error": {}
+                    }
+                  ],
+                  "additionalProperties": false,
+                  "GUID": "59c0a308-c565-4cb5-827f-aebb2d0512a1",
+                  "required": true,
+                  "error": {}
+                }
+              ],
+              "additionalProperties": false,
+              "error": {},
+              "GUID": "fcc003fc-34b7-40fd-95b3-c3c836becf0b",
+              "arrayItem": true
+            }
+          ],
+          "additionalItems": true,
+          "error": {},
+          "required": true,
+          "GUID": "9862a6da-2927-4e71-8faf-6363bd8e826d"
+        },
+        {
+          "name": "fecha_inicio",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "date",
+          "primaryKey": false,
+          "GUID": "0b5dc052-0bf1-47ac-b6a0-54726c052bbe",
+          "required": true,
+          "error": {}
+        },
+        {
+          "name": "fecha_fin",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "date",
+          "primaryKey": false,
+          "GUID": "83a54fe2-30db-48ea-a887-27c89593ee70",
+          "required": true,
+          "error": {}
+        },
+        {
+          "name": "precio_inicial",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "numeric",
+          "GUID": "01f980e0-8fa8-4864-b505-7caeae7164ef",
+          "required": true,
+          "error": {}
+        },
+        {
+          "name": "precio_actual",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "numeric",
+          "GUID": "a714970e-1020-4d93-896f-26f5016d243a",
+          "required": true,
+          "error": {}
+        },
+        {
+          "name": "estado",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "fcb6d2d6-cda1-471a-a309-1869d6dcceb5",
+          "required": true,
+          "error": {}
+        },
+        {
+          "name": "ofertas",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "array",
+          "properties": [
+            {
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "document",
+              "properties": [
+                {
+                  "name": "id",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "objectId",
+                  "error": {},
+                  "required": true,
+                  "GUID": "714c2231-35dc-4aed-896d-e9de289c4fbe"
+                },
+                {
+                  "name": "monto_ofertado",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "numeric",
+                  "GUID": "05f6d843-e89d-455e-8b0d-ac574d501117",
+                  "required": true,
+                  "error": {}
+                },
+                {
+                  "name": "comprador",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "document",
+                  "properties": [
+                    {
+                      "name": "id",
+                      "hackoladeMeta": {},
+                      "isActivated": true,
+                      "type": "objectId",
+                      "GUID": "17420c78-dcef-4273-bb98-f173e337b2c5",
+                      "required": true,
+                      "error": {}
+                    },
+                    {
+                      "name": "nombre",
+                      "hackoladeMeta": {},
+                      "isActivated": true,
+                      "type": "string",
+                      "GUID": "ed33cc71-bcbe-4706-8bca-1ee7f6c0b565",
+                      "required": true,
+                      "error": {}
+                    }
+                  ],
+                  "additionalProperties": false,
+                  "error": {},
+                  "GUID": "45cc5691-5413-46d9-91f8-16295e0ded92"
+                }
+              ],
+              "additionalProperties": false,
+              "error": {},
+              "GUID": "b17088ad-685a-4e1c-bede-97272bfb65ed",
+              "arrayItem": true
+            }
+          ],
+          "additionalItems": true,
+          "error": {},
+          "required": false,
+          "GUID": "ad15c4b0-73fd-485a-854f-8b765846d904"
+        },
+        {
+          "name": "id_subasta",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "required": true,
+          "GUID": "e4f220d5-06a3-4365-bc01-06484fc2a83e",
+          "relationshipType": "Foreign Key",
+          "foreignCollection": "895c6e35-41c5-4591-a374-eedec299088c",
+          "foreignField": [
+            "895c6e35-41c5-4591-a374-eedec299088c",
+            "2c79a2a5-899d-4bcb-bde1-4a804ccaae7e"
+          ],
+          "parentRelationship": "29d7feef-e3d8-48fe-8aff-c2d389ffe638"
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "2b6f506f-c7ec-4936-b4ae-7c141b242dc6"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "validationLevel": "Off",
+      "validationAction": "Warn",
+      "storageEngineName": "WiredTiger",
+      "collectionUsers": [],
+      "indexes": [],
+      "collation": {},
+      "sharding": {
+        "unique": true,
+        "collation": "null"
+      },
+      "GUID": "972fd293-584b-4c6e-9250-a8a3e1374f37",
+      "bucketId": "f20a45ee-b591-470e-88fe-78362e9e3d4b",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    },
+    {
+      "collectionName": "detalle_vendedor",
+      "type": "object",
+      "properties": [
+        {
+          "name": "_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "primaryKey": true,
+          "required": true,
+          "GUID": "c68d0b49-006d-41c5-b0c0-c238d276300c"
+        },
+        {
+          "name": "nombre",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "0acc4249-49ab-4706-bd34-1522096e4832",
+          "required": true,
+          "error": {}
+        },
+        {
+          "name": "reputacion_promedio",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "numeric",
+          "error": {},
+          "required": false,
+          "GUID": "ce76a832-18cf-41e0-925b-e1ccf9834a97"
+        },
+        {
+          "name": "ruc",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "numeric",
+          "GUID": "333a4097-52db-4c26-a76a-da777a4a57f9",
+          "required": true,
+          "error": {}
+        },
+        {
+          "name": "telefono",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "error": {},
+          "required": true,
+          "GUID": "d79b4543-a125-401e-8873-b500da49af0f"
+        },
+        {
+          "name": "direccion_comercial",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "e94a4d55-8bb5-48c8-ae40-6d16572dffb7",
+          "error": {}
+        },
+        {
+          "name": "correo_electronico",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "ed92be91-cffb-4d98-8b76-ce8017d8a2bb",
+          "required": true,
+          "error": {}
+        },
+        {
+          "name": "id_vendedor",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "GUID": "b0ac5d74-175d-459e-9178-a89b33c6b107",
+          "relationshipType": "Foreign Key",
+          "foreignCollection": "972fd293-584b-4c6e-9250-a8a3e1374f37",
+          "foreignField": [
+            "972fd293-584b-4c6e-9250-a8a3e1374f37",
+            "9862a6da-2927-4e71-8faf-6363bd8e826d",
+            "fcc003fc-34b7-40fd-95b3-c3c836becf0b",
+            "59c0a308-c565-4cb5-827f-aebb2d0512a1",
+            "58e4fcd7-1a78-439b-8f58-b2f9d43b8b27"
+          ],
+          "parentRelationship": "45c137dc-2693-4a94-b350-6b004f38626a",
+          "required": true,
+          "error": {}
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "72b3a3c1-ddf4-47ce-8bae-021bb12f299d"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "validationLevel": "Off",
+      "validationAction": "Warn",
+      "storageEngineName": "WiredTiger",
+      "collectionUsers": [],
+      "indexes": [],
+      "collation": {},
+      "sharding": {
+        "unique": true,
+        "collation": "null"
+      },
+      "GUID": "9c591791-b563-4ab6-8bd7-d894a6a7a4a5",
+      "bucketId": "f20a45ee-b591-470e-88fe-78362e9e3d4b",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    },
+    {
+      "collectionName": "detalle_comprador",
+      "type": "object",
+      "properties": [
+        {
+          "name": "_id",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "error": {},
+          "primaryKey": true,
+          "required": true,
+          "GUID": "bcb35358-0768-4dd5-be57-7d1a48ceb26b"
+        },
+        {
+          "name": "nombre",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "498e3fd0-33b4-44ce-b05e-5d34fd5792bd",
+          "foreignCollection": "",
+          "foreignField": [],
+          "required": true,
+          "error": {}
+        },
+        {
+          "name": "dni",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "495e7ca2-62cd-408b-9722-b6608d995bd6",
+          "foreignCollection": "",
+          "foreignField": [],
+          "required": true,
+          "error": {}
+        },
+        {
+          "name": "telefono",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "error": {},
+          "required": true,
+          "GUID": "f91a5f43-6fd5-4140-a9c7-f229f991ce4d"
+        },
+        {
+          "name": "direccion",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "21bf3fca-27e3-48c8-823c-e890d35f4433",
+          "foreignCollection": "",
+          "foreignField": [],
+          "required": false,
+          "error": {}
+        },
+        {
+          "name": "correo_electronico",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "string",
+          "GUID": "9bbe68bd-02c6-446d-b16e-35acb9590f38",
+          "foreignCollection": "",
+          "foreignField": [],
+          "required": true,
+          "error": {}
+        },
+        {
+          "name": "categoria_interes",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "array",
+          "properties": [
+            {
+              "hackoladeMeta": {},
+              "isActivated": true,
+              "type": "document",
+              "properties": [
+                {
+                  "name": "_id",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "objectId",
+                  "error": {},
+                  "required": true,
+                  "GUID": "4bf90e52-e174-4f38-8129-50cbf58085e8"
+                },
+                {
+                  "name": "nombre",
+                  "hackoladeMeta": {},
+                  "isActivated": true,
+                  "type": "string",
+                  "GUID": "f86dff82-84aa-454f-8c8f-a92e57329df5",
+                  "required": true,
+                  "error": {}
+                }
+              ],
+              "additionalProperties": false,
+              "error": {},
+              "GUID": "339ad71f-0439-451c-938b-9687c311b80c",
+              "arrayItem": true
+            }
+          ],
+          "additionalItems": true,
+          "error": {},
+          "GUID": "d4f4ad46-4da8-4a23-90cb-271612f1e980"
+        },
+        {
+          "name": "id_comprador",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "type": "objectId",
+          "GUID": "720a3560-df30-4d99-b86d-563362f8f986",
+          "relationshipType": "Foreign Key",
+          "foreignCollection": "972fd293-584b-4c6e-9250-a8a3e1374f37",
+          "foreignField": [
+            "972fd293-584b-4c6e-9250-a8a3e1374f37",
+            "9862a6da-2927-4e71-8faf-6363bd8e826d",
+            "fcc003fc-34b7-40fd-95b3-c3c836becf0b",
+            "59c0a308-c565-4cb5-827f-aebb2d0512a1",
+            "58e4fcd7-1a78-439b-8f58-b2f9d43b8b27"
+          ],
+          "parentRelationship": "151446e8-5537-454d-96ef-f6e7982b1cbd",
+          "required": true,
+          "error": {}
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "99514e6b-7700-49eb-84b2-eea0e4f40442"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "validationLevel": "Off",
+      "validationAction": "Warn",
+      "storageEngineName": "WiredTiger",
+      "collectionUsers": [],
+      "indexes": [],
+      "collation": {},
+      "sharding": {
+        "unique": true,
+        "collation": "null"
+      },
+      "GUID": "78cc6f2f-8567-4436-b848-092eea2007ee",
+      "bucketId": "f20a45ee-b591-470e-88fe-78362e9e3d4b",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      }
+    }
+  ],
+  "buckets": [
+    {
+      "name": "SubaTec",
+      "type": "bucket",
+      "collectionIds": [
+        "895c6e35-41c5-4591-a374-eedec299088c",
+        "972fd293-584b-4c6e-9250-a8a3e1374f37",
+        "9c591791-b563-4ab6-8bd7-d894a6a7a4a5",
+        "78cc6f2f-8567-4436-b848-092eea2007ee"
+      ],
+      "backgroundColor": {
+        "r": 129,
+        "g": 212,
+        "b": 250,
+        "a": 1
+      },
+      "show": true,
+      "isActivated": true,
+      "GUID": "f20a45ee-b591-470e-88fe-78362e9e3d4b",
+      "hackoladeMeta": {
+        "namingConvention": "",
+        "validationErrors": {}
+      }
+    }
+  ],
+  "views": [],
+  "relationships": [
+    {
+      "name": "fk_subasta__id_to_subasta_detalles_id_subasta",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "895c6e35-41c5-4591-a374-eedec299088c",
+          "2c79a2a5-899d-4bcb-bde1-4a804ccaae7e"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "972fd293-584b-4c6e-9250-a8a3e1374f37",
+          "e4f220d5-06a3-4365-bc01-06484fc2a83e"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "1",
+      "parentCollection": "895c6e35-41c5-4591-a374-eedec299088c",
+      "childCollection": "972fd293-584b-4c6e-9250-a8a3e1374f37",
+      "GUID": "29d7feef-e3d8-48fe-8aff-c2d389ffe638",
+      "hackoladeMeta": {
+        "validationErrors": {}
+      },
+      "hackoladeStyles": {
+        "GUID": "2cc2c61d-69cf-4541-9053-9475a20760c7",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 1237.0620043741624,
+            "y": 1628.2854735836245
+          },
+          {
+            "x": 1206.576164744694,
+            "y": 1628.2854735836245
+          },
+          {
+            "x": 1206.576164744694,
+            "y": 1616.921236133122
+          },
+          {
+            "x": 1176.0903251152258,
+            "y": 1616.921236133122
+          }
+        ],
+        "sides": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    {
+      "name": "fk_detalle_subasta_producto.[0].vendedor._id_to_detalle_vendedor_id_vendedor",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "972fd293-584b-4c6e-9250-a8a3e1374f37",
+          "9862a6da-2927-4e71-8faf-6363bd8e826d",
+          "fcc003fc-34b7-40fd-95b3-c3c836becf0b",
+          "59c0a308-c565-4cb5-827f-aebb2d0512a1",
+          "58e4fcd7-1a78-439b-8f58-b2f9d43b8b27"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "9c591791-b563-4ab6-8bd7-d894a6a7a4a5",
+          "b0ac5d74-175d-459e-9178-a89b33c6b107"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "1",
+      "parentCollection": "972fd293-584b-4c6e-9250-a8a3e1374f37",
+      "childCollection": "9c591791-b563-4ab6-8bd7-d894a6a7a4a5",
+      "GUID": "45c137dc-2693-4a94-b350-6b004f38626a",
+      "hackoladeMeta": {
+        "validationErrors": {
+          "name": "duplicated"
+        }
+      },
+      "hackoladeStyles": {
+        "GUID": "8044aaef-8247-4503-97df-33ebcbe39dc6",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 1680.6000488281247,
+            "y": 1479.8999755859377
+          },
+          {
+            "x": 1622.1310266011435,
+            "y": 1479.8999755859377
+          },
+          {
+            "x": 1622.1310266011435,
+            "y": 1547.7594369844553
+          },
+          {
+            "x": 1563.6620043741623,
+            "y": 1547.7594369844553
+          }
+        ],
+        "sides": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    {
+      "name": "fk_detalle_subasta_producto.[0].vendedor._id_to_detalle_vendedor_id_vendedor",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "972fd293-584b-4c6e-9250-a8a3e1374f37",
+          "9862a6da-2927-4e71-8faf-6363bd8e826d",
+          "fcc003fc-34b7-40fd-95b3-c3c836becf0b",
+          "59c0a308-c565-4cb5-827f-aebb2d0512a1",
+          "58e4fcd7-1a78-439b-8f58-b2f9d43b8b27"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "78cc6f2f-8567-4436-b848-092eea2007ee",
+          "720a3560-df30-4d99-b86d-563362f8f986"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "1",
+      "GUID": "151446e8-5537-454d-96ef-f6e7982b1cbd",
+      "parentCollection": "972fd293-584b-4c6e-9250-a8a3e1374f37",
+      "childCollection": "78cc6f2f-8567-4436-b848-092eea2007ee",
+      "hackoladeMeta": {
+        "validationErrors": {
+          "name": "duplicated"
+        }
+      },
+      "hackoladeStyles": {
+        "GUID": "8044aaef-8247-4503-97df-33ebcbe39dc6",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 1682.6000488281247,
+            "y": 1720.8999755859377
+          },
+          {
+            "x": 1623.1310266011435,
+            "y": 1720.8999755859377
+          },
+          {
+            "x": 1623.1310266011435,
+            "y": 1708.8115101827937
+          },
+          {
+            "x": 1563.6620043741623,
+            "y": 1708.8115101827937
+          }
+        ],
+        "sides": [
+          "left",
+          "right"
+        ]
+      }
+    }
+  ],
+  "users": [],
+  "diagramViews": [],
+  "idToNameHashTable": {
+    "f20a45ee-b591-470e-88fe-78362e9e3d4b": "SubaTec",
+    "895c6e35-41c5-4591-a374-eedec299088c": "subasta",
+    "2c79a2a5-899d-4bcb-bde1-4a804ccaae7e": "_id",
+    "c4928674-2efe-4361-a485-8208ba7e1ff3": "fecha_inicio",
+    "d125f823-b2da-4ce6-8e12-0995e16e240c": "fecha_fin",
+    "edc7443c-caca-43ad-855e-22d6f15d240b": "producto",
+    "842d5beb-7366-4cf9-891f-03d72c3b3cf0": "id",
+    "a6c996b6-3e9a-409d-8566-01bd11ff1248": "nombre_producto",
+    "ee83bc31-bb11-4163-ac5a-20fa9421c0b7": "categoria",
+    "f995f45b-444f-4324-b1c7-75931bc239a0": "precio_actual",
+    "ea9b2159-3cd6-44d4-a327-a16777564495": "estado",
+    "972fd293-584b-4c6e-9250-a8a3e1374f37": "detalle_subasta",
+    "5d8182da-b84f-409e-9f48-e93da20a81d2": "_id",
+    "9862a6da-2927-4e71-8faf-6363bd8e826d": "producto",
+    "0b5dc052-0bf1-47ac-b6a0-54726c052bbe": "fecha_inicio",
+    "eff4dad2-e294-4a41-9714-3e65797e0da3": "_id",
+    "a154e8b6-737b-45e2-9e23-6012c7e7b295": "nombre_producto ",
+    "fbd7c52c-fa46-418e-8bd0-05e5170d1b14": "categoria",
+    "59c0a308-c565-4cb5-827f-aebb2d0512a1": "vendedor",
+    "58e4fcd7-1a78-439b-8f58-b2f9d43b8b27": "_id",
+    "adf3c6e8-6c28-4b17-8086-f994dc2e5d36": "nombre",
+    "652e3e56-f467-4bfe-b4cd-32ae448273a7": "reputacion_promedio",
+    "83a54fe2-30db-48ea-a887-27c89593ee70": "fecha_fin",
+    "01f980e0-8fa8-4864-b505-7caeae7164ef": "precio_inicial",
+    "a714970e-1020-4d93-896f-26f5016d243a": "precio_actual",
+    "fcb6d2d6-cda1-471a-a309-1869d6dcceb5": "estado",
+    "ad15c4b0-73fd-485a-854f-8b765846d904": "ofertas",
+    "714c2231-35dc-4aed-896d-e9de289c4fbe": "id",
+    "05f6d843-e89d-455e-8b0d-ac574d501117": "monto_ofertado",
+    "45cc5691-5413-46d9-91f8-16295e0ded92": "comprador",
+    "17420c78-dcef-4273-bb98-f173e337b2c5": "id",
+    "ed33cc71-bcbe-4706-8bca-1ee7f6c0b565": "nombre",
+    "e4f220d5-06a3-4365-bc01-06484fc2a83e": "id_subasta",
+    "29d7feef-e3d8-48fe-8aff-c2d389ffe638": "fk_subasta__id_to_subasta_detalles_id_subasta",
+    "9c591791-b563-4ab6-8bd7-d894a6a7a4a5": "detalle_vendedor",
+    "c68d0b49-006d-41c5-b0c0-c238d276300c": "_id",
+    "0acc4249-49ab-4706-bd34-1522096e4832": "nombre",
+    "333a4097-52db-4c26-a76a-da777a4a57f9": "ruc",
+    "d79b4543-a125-401e-8873-b500da49af0f": "telefono",
+    "e94a4d55-8bb5-48c8-ae40-6d16572dffb7": "direccion_comercial",
+    "ed92be91-cffb-4d98-8b76-ce8017d8a2bb": "correo_electronico",
+    "b0ac5d74-175d-459e-9178-a89b33c6b107": "id_vendedor",
+    "45c137dc-2693-4a94-b350-6b004f38626a": "fk_detalle_subasta_producto.[0].vendedor._id_to_detalle_vendedor_id_vendedor",
+    "bcb35358-0768-4dd5-be57-7d1a48ceb26b": "_id",
+    "498e3fd0-33b4-44ce-b05e-5d34fd5792bd": "nombre",
+    "495e7ca2-62cd-408b-9722-b6608d995bd6": "dni",
+    "f91a5f43-6fd5-4140-a9c7-f229f991ce4d": "telefono",
+    "21bf3fca-27e3-48c8-823c-e890d35f4433": "direccion",
+    "9bbe68bd-02c6-446d-b16e-35acb9590f38": "correo_electronico",
+    "720a3560-df30-4d99-b86d-563362f8f986": "id_comprador",
+    "78cc6f2f-8567-4436-b848-092eea2007ee": "detalle_comprador",
+    "151446e8-5537-454d-96ef-f6e7982b1cbd": "fk_detalle_subasta_producto.[0].vendedor._id_to_detalle_vendedor_id_vendedor",
+    "d4f4ad46-4da8-4a23-90cb-271612f1e980": "categoria_interes",
+    "4bf90e52-e174-4f38-8129-50cbf58085e8": "_id",
+    "f86dff82-84aa-454f-8c8f-a92e57329df5": "nombre",
+    "e2b0ab83-39c4-4aa8-9bf9-505d1cd22329": "descripcion",
+    "ce76a832-18cf-41e0-925b-e1ccf9834a97": "reputacion_promedio"
+  },
+  "definitions": {
+    "type": "definitions",
+    "properties": [],
+    "GUID": "af03e4e6-2911-43be-a6e7-11b01fefdfb7"
+  },
+  "polyglotDefinitions": {
+    "type": "polyglotDefinitions",
+    "properties": [],
+    "GUID": "13f284fa-3035-49bd-8d7e-6953bd05a69d"
+  },
+  "externalDefinitions": {
+    "type": "externalDefinitions",
+    "properties": [],
+    "GUID": "9b6d057d-0c9c-4652-b9d2-4add3aa615f1"
+  },
+  "sources": [],
+  "decorativeSymbols": [],
+  "dbVersion": "v7.x",
+  "dbVendor": "MongoDB",
+  "appTarget": "MONGODB",
+  "creationTS": "2025-12-01T04:30:24.466Z",
+  "GUID": "4c8f3943-4bf8-4e7c-a1a0-8b4d757682ac",
+  "isLineageEnabled": false,
+  "hackoladeMeta": {
+    "validationErrors": {
+      "modelName": false
+    }
+  },
+  "lastModifTS": "2025-12-03T18:12:46.543Z",
+  "persistenceSchemaVersion": "8",
+  "isCreatedByPlugin": true,
+  "pluginInformation": {
+    "pluginEngineVersion": "1.0.0"
+  },
+  "applicationInformation": {
+    "version": "8.7.1"
+  },
+  "settings": {
+    "centralPane": {
+      "dbLevel": {
+        "erd": [
+          {
+            "GUID": "895c6e35-41c5-4591-a374-eedec299088c",
+            "x": 886.0903251152259,
+            "y": 1510.421236133122,
+            "width": 290,
+            "height": 213,
+            "color": {}
+          },
+          {
+            "GUID": "972fd293-584b-4c6e-9250-a8a3e1374f37",
+            "x": 1237.0620043741624,
+            "y": 1386.707363786117,
+            "width": 326.6,
+            "height": 483.15621959501493,
+            "color": {}
+          },
+          {
+            "GUID": "9c591791-b563-4ab6-8bd7-d894a6a7a4a5",
+            "x": 1680.6000488281247,
+            "y": 1391.3999755859377,
+            "width": 274,
+            "height": 177,
+            "color": {}
+          },
+          {
+            "GUID": "78cc6f2f-8567-4436-b848-092eea2007ee",
+            "x": 1682.6000488281247,
+            "y": 1601.3999755859377,
+            "width": 267,
+            "height": 239,
+            "color": {}
+          }
+        ],
+        "erdDefinitions": {
+          "erd": [],
+          "rootPath": [],
+          "entities": [],
+          "decorativeSymbols": []
+        },
+        "buckets": [
+          {
+            "x": 822.0903251152259,
+            "y": 1322.707363786117,
+            "GUID": "f20a45ee-b591-470e-88fe-78362e9e3d4b"
+          }
+        ],
+        "collapsedNodes": [],
+        "activeRelationship": "",
+        "activeRelationshipFields": {
+          "childField": [],
+          "parentField": []
+        },
+        "selectedCollections": [],
+        "displayColorPicker": false,
+        "graphView": {
+          "erd": [],
+          "buckets": [],
+          "decorativeSymbols": [],
+          "forceLayout": true,
+          "defaultLinkLength": 300
+        },
+        "diagramViews": [],
+        "decorativeSymbols": [],
+        "nestedCollectionsLayout": "horizontal",
+        "options": [
+          {
+            "autoWidth": false,
+            "autoHeight": false,
+            "GUID": "972fd293-584b-4c6e-9250-a8a3e1374f37"
+          },
+          {
+            "GUID": "78cc6f2f-8567-4436-b848-092eea2007ee",
+            "autoWidth": false,
+            "autoHeight": false
+          }
+        ],
+        "relationshipUpdateDisabled": false
+      },
+      "collectionLevel": {},
+      "changed": false
+    },
+    "dtDiagram": {
+      "collapsedNodes": [],
+      "shouldDistributeCollections": false
+    }
+  }
+}
