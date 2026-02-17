@@ -90,7 +90,7 @@
   <!-- Proyecto 1 -->
   <a href="#">
     <img 
-      src="https://github.com/antonyyomar-dev/PROYECTOS/tree/2906aaf6ce363cd2460d650a3e0f57f42e0bce16/SISSTEMA%20BIBLIOTECA" 
+      src="https://img.shields.io/badge/Sistema%20de%20Biblioteca-En%20Desarrollo-yellow?style=for-the-badge&logo=github" 
       alt="Sistema de Biblioteca"/>
   </a>
 
