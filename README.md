@@ -88,23 +88,29 @@
 <div align="center">
 
   <!-- Proyecto 1 -->
-  <a href="#">
+  <a href="https://github.com/antonyyomar-dev/PROYECTOS/tree/main/SISSTEMA%20BIBLIOTECA">
     <img 
-      src="https://img.shields.io/badge/Sistema%20de%20Biblioteca-En%20Desarrollo-yellow?style=for-the-badge&logo=github" 
+      src="https://img.shields.io/badge/Sistema%20de%20Biblioteca-Terminado-blackgreen?style=for-the-badge&logo=github" 
       alt="Sistema de Biblioteca"/>
   </a>
 
   <!-- Proyecto 2 -->
-  <a href="#">
+  <a href="https://github.com/antonyyomar-dev/PROYECTOS/tree/main/Gesti%C3%B3n%20de%20Productos">
     <img 
-      src="https://img.shields.io/badge/App%20de%20Gestión%20Escolar-En%20Desarrollo-yellow?style=for-the-badge&logo=github" 
+      src="https://img.shields.io/badge/Gestión%20de%20Productos-En%20Desarrollo-yellow?style=for-the-badge&logo=github" 
       alt="App de Gestión Escolar"/>
   </a>
 
   <!-- Proyecto 3 -->
-  <a href="#">
+  <a href="https://github.com/antonyyomar-dev/PROYECTOS/tree/main/SISTEMA%20RESTAURANTE">
     <img 
-      src="https://img.shields.io/badge/Sistema%20de%20Préstamos-En%20Desarrollo-yellow?style=for-the-badge&logo=github" 
+      src="https://img.shields.io/badge/Sistema%20de%20de%20Restaurante-Terminado-blackgreen?style=for-the-badge&logo=github" 
+      alt="Sistema de Préstamos"/>
+  </a>
+    <!-- Proyecto 4 -->
+  <a href="https://github.com/antonyyomar-dev/PROYECTOS/tree/main/SISTEMA%20CL%C3%8DNICA">
+    <img 
+      src="https://img.shields.io/badge/Sistema%20de%20de%20Clínica-En%20Desarrollo-yellow?style=for-the-badge&logo=github" 
       alt="Sistema de Préstamos"/>
   </a>
 
