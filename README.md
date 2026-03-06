@@ -1,4 +1,4 @@
-<h1 align="center">¡Hello welcome to my  GitHub profile - System Code! </h1>
+<h1 align="center">¡Hello welcome to my  GitHub profile ! </h1>
 
 
 <!------------------------------------------------- --------------------------------------------------------------------------------------------
@@ -28,19 +28,19 @@
 
 
 <!-- ======= TECNOLOGÍAS ======= -->
-<h2>🧰 technologies</h2>
+<h2>🧰 Technologies</h2>
 <div>
   <!-- Íconos devicon (puedes quitar/añadir) -->
   <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/>
-  <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"/>
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"/>
   <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"/> -->
   <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"/>
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"/>
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"/>-->
   <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"/> 
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"/>-->
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"/>
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"/>
-
+  <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"/> -->
+  <img height="40" src="https://img.icons8.com/?size=100&id=lkh3AbJLmFpp&format=png&color=000000" alt="GitHub"/>
+  <img src="https://img.icons8.com/?size=100&id=J6KcaRLsTgpZ&format=png&color=000000" height="40" alt="SQL">
+  <img src="https://img.icons8.com/?size=100&id=2T6TKY6whzgV&format=png&color=000000" height="40" alt="C++">
 </div>
 
 <br/>
@@ -49,41 +49,33 @@
 
 <!------------------------------------------------- --------------------------------------------------------------------------------------------
 
+-->
+# 📚 Currently Learning
+
+- Data Structures
+- Advanced SQL
+- Python for Data Science
+
 <!-- ======= ESTADÍSTICAS ======= -->
 <h2>📊 GitHub Statistics </h2>
 
 <table align="center">
   <tr>
     <td>
-      <!-- Estadísticas generales -->
-      <img 
-           src="https://github-readme-stats.vercel.app/api?username=antonyyomar-dev&show_icons=true&theme=tokyonight&rank_icon=github&hide_border=true" 
-           height="160" 
-           alt="GitHub Stats" />
-    </td>
-    <td>
       <!-- Racha de commits -->
       <img 
-           src="https://streak-stats.demolab.com?user=antonyyomar-dev&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" 
-           height="160" 
-           alt="GitHub Streak" />
-    </td>
-    <td>
-      <!-- Lenguajes más usados -->
-      <img 
-           src="https://github-readme-stats.vercel.app/api/top-langs/?username=antonyyomar-dev&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" 
-           height="160" 
-           alt="Top Languages" />
+        src="https://streak-stats.demolab.com?user=antonyyomar-dev&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" 
+        height="160" 
+        alt="GitHub Streak" />
     </td>
   </tr>
 </table>
 
 
-
 <!------------------------------------------------- --------------------------------------------------------------------------------------------
 
 <!-- ======= PROYECTOS DESTACADOS ======= -->
-<h2>🚀 Proyects </h2>
+<h2>🚀 Projects </h2>
 
 <div align="center">
 
