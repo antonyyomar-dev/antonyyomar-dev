@@ -18,8 +18,8 @@
   <h2>👨‍💻 About me </h2>
   <ul>
     <li>🎓 Systems Engineering student at UPC University </li>
-    <li>💡 Interests: Python, Java, data science, and automation</li>
-    <li>🚀 Goal: to build useful projects with social impact</li>
+    <li>💡 Interests: Python, Java, Data Science, and Automation</li>
+    <li>🚀 Goal: To build useful projects with social impact</li>
   </ul>
 </div>
 
@@ -96,7 +96,7 @@
   <!-- Proyecto 3 -->
   <a href="https://github.com/antonyyomar-dev/PROYECTOS/tree/main/SISTEMA%20RESTAURANTE">
     <img 
-      src="https://img.shields.io/badge/Sistema%20de%20de%20Restaurante-Terminado-blackgreen?style=for-the-badge&logo=github" 
+      src="https://img.shields.io/badge/Sistema%20de%20Restaurante-Terminado-blackgreen?style=for-the-badge&logo=github" 
       alt="Sistema de Préstamos"/>
   </a>
     <!-- Proyecto 4 -->
