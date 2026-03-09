@@ -102,7 +102,7 @@
     <!-- Proyecto 4 -->
   <a href="https://github.com/antonyyomar-dev/PROYECTOS/tree/main/SISTEMA%20CL%C3%8DNICA">
     <img 
-      src="https://img.shields.io/badge/Sistema%20de%20de%20Clínica-En%20Desarrollo-yellow?style=for-the-badge&logo=github" 
+      src="https://img.shields.io/badge/Sistema%20de%20Clínica-En%20Desarrollo-yellow?style=for-the-badge&logo=github" 
       alt="Sistema de Préstamos"/>
   </a>
 
