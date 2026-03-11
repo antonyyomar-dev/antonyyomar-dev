@@ -106,6 +106,13 @@
       alt="Sistema de Préstamos"/>
   </a>
 
+  <!-- Proyecto 5 -->
+  <a href="https://github.com/antonyyomar-dev/PROYECTOS/tree/7437487a09529009c63687b4dfb3ee8c03504b67/GENERADOR%20DE%20CONTRASE%C3%91AS%20WEB/APP/SRC">
+    <img 
+      src="https://img.shields.io/badge/Generador%20de%20Contraseñas-%20Terminado-blackgreen?style=for-the-badge&logo=github" 
+      alt="Sistema de Préstamos"/>
+  </a>
+  
 </div>
 
 
