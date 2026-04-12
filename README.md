@@ -113,6 +113,13 @@
       alt="Sistema de Préstamos"/>
   </a>
   
+  <!-- Proyecto 6 -->
+  <a href="https://github.com/antonyyomar-dev/aerolinea_project">
+    <img 
+      src="https://img.shields.io/badge/Sistema%20de%20Aerolínea-%20Terminado-blackgreen?style=for-the-badge&logo=github" 
+      alt="Sistema de Préstamos"/>
+  </a>
+  
 </div>
 
 
