@@ -1,145 +1,150 @@
-<h1 align="center">¡Hello welcome to my  GitHub profile ! </h1>
-
-
-<!------------------------------------------------- --------------------------------------------------------------------------------------------
-<!-- ======= ENCABEZADO CON TIPING ======= -->
 <div align="center">
-  <!-- Texto animado -->
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Hello%2C+I'm+Antony+Yomar+%F0%9F%91%8B;Developer+in+training;Lover+of+code+and+constant+learning" alt="Typing SVG"
- />
-  
-  <!-- Banner sutil -->
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0ea5e9,100:6366f1&height=8&section=header"/>
-</div>
 
+<!-- HEADER BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Antony%20Yomar&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Systems%20Engineer%20in%20Training%20%7C%20Developer%20%7C%20Problem%20Solver&descAlignY=58&descSize=16&animation=twinkling"/>
 
-<!-- ======= SOBRE MÍ ======= -->
-<div>
-  <h2>👨‍💻 About me </h2>
-  <ul>
-    <li>🎓 Systems Engineering student at UPC University </li>
-    <li>💡 Interests: Python, Java, Data Science, and Automation</li>
-    <li>🚀 Goal: To build useful projects with social impact</li>
-  </ul>
-</div>
-
-
-<!------------------------------------------------- --------------------------------------------------------------------------------------------
-
-
-<!-- ======= TECNOLOGÍAS ======= -->
-<h2>🧰 Technologies</h2>
-<div>
-  <!-- Íconos devicon (puedes quitar/añadir) -->
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/>
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"/>
-  <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"/> -->
-  <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"/>
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"/>-->
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"/> 
-  <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"/> -->
-  <img height="40" src="https://img.icons8.com/?size=100&id=lkh3AbJLmFpp&format=png&color=000000" alt="GitHub"/>
-  <img src="https://img.icons8.com/?size=100&id=J6KcaRLsTgpZ&format=png&color=000000" height="40" alt="SQL">
-  <img src="https://img.icons8.com/?size=100&id=2T6TKY6whzgV&format=png&color=000000" height="40" alt="C++">
-</div>
+<!-- TYPING ANIMATION -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=Hello%2C+I'm+Antony+Yomar+%F0%9F%91%8B;Systems+Engineering+@+UPC;Full+Stack+Developer+in+Progress;Turning+ideas+into+code+%F0%9F%9A%80" alt="Typing SVG"/>
 
 <br/>
 
+<!-- SOCIAL BADGES -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antony-yomar-pe%C3%B1a-ro%C3%B1a-6b829b3a6)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/antonyyomar002/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/antonyyomar-dev)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:antonyyomar2024203@gmail.com)
 
+<br/>
 
-<!------------------------------------------------- --------------------------------------------------------------------------------------------
+![Profile Views](https://komarev.com/ghpvc/?username=antonyyomar-dev&color=7C3AED&style=flat-square&label=Profile+Views)
+![GitHub followers](https://img.shields.io/github/followers/antonyyomar-dev?color=7C3AED&style=flat-square&logo=github&label=Followers)
 
--->
-# 📚 Currently Learning
+</div>
 
-- Data Structures
-- Advanced SQL
-- Python for Data Science
+---
 
-<!-- ======= ESTADÍSTICAS ======= -->
-<h2>📊 GitHub Statistics </h2>
+## 👨‍💻 About Me
 
-<table align="center">
-  <tr>
-    <td>
-      <!-- Racha de commits -->
-      <img 
-        src="https://streak-stats.demolab.com?user=antonyyomar-dev&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" 
-        height="160" 
-        alt="GitHub Streak" />
-    </td>
-  </tr>
-</table>
+```python
+class AntonyYomar:
+    def __init__(self):
+        self.name       = "Antony Yomar Peña Roña"
+        self.role       = "Systems Engineering Student"
+        self.university = "UPC – Universidad Peruana de Ciencias Aplicadas"
+        self.location   = "Lima, Perú 🇵🇪"
+        self.languages  = ["Python", "Java", "JavaScript", "C++", "SQL"]
+        self.interests  = ["Data Science", "Web Development", "Automation", "Cloud"]
+        self.goal       = "Build impactful software that solves real problems"
 
+    def current_status(self):
+        return "Learning, building, and growing every day 🚀"
+```
 
-<!------------------------------------------------- --------------------------------------------------------------------------------------------
+---
 
-<!-- ======= PROYECTOS DESTACADOS ======= -->
-<h2>🚀 Projects </h2>
+## 🛠️ Tech Stack
 
 <div align="center">
 
-  <!-- Proyecto 1 -->
-  <a href="https://github.com/antonyyomar-dev/PROYECTOS/tree/main/SISSTEMA%20BIBLIOTECA">
-    <img 
-      src="https://img.shields.io/badge/Sistema%20de%20Biblioteca-Terminado-blackgreen?style=for-the-badge&logo=github" 
-      alt="Sistema de Biblioteca"/>
-  </a>
+### 🖥️ Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
-  <!-- Proyecto 2 -->
-  <a href="https://github.com/antonyyomar-dev/PROYECTOS/tree/main/Gesti%C3%B3n%20de%20Productos">
-    <img 
-      src="https://img.shields.io/badge/Gestión%20de%20Productos-En%20Desarrollo-yellow?style=for-the-badge&logo=github" 
-      alt="App de Gestión Escolar"/>
-  </a>
+### 🌐 Frontend
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-  <!-- Proyecto 3 -->
-  <a href="https://github.com/antonyyomar-dev/PROYECTOS/tree/main/SISTEMA%20RESTAURANTE">
-    <img 
-      src="https://img.shields.io/badge/Sistema%20de%20Restaurante-Terminado-blackgreen?style=for-the-badge&logo=github" 
-      alt="Sistema de Préstamos"/>
-  </a>
-    <!-- Proyecto 4 -->
-  <a href="https://github.com/antonyyomar-dev/PROYECTOS/tree/main/SISTEMA%20CL%C3%8DNICA">
-    <img 
-      src="https://img.shields.io/badge/Sistema%20de%20Clínica-En%20Desarrollo-yellow?style=for-the-badge&logo=github" 
-      alt="Sistema de Préstamos"/>
-  </a>
+### 🗄️ Databases
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
-  <!-- Proyecto 5 -->
-  <a href="https://github.com/antonyyomar-dev/PROYECTOS/tree/7437487a09529009c63687b4dfb3ee8c03504b67/GENERADOR%20DE%20CONTRASE%C3%91AS%20WEB/APP/SRC">
-    <img 
-      src="https://img.shields.io/badge/Generador%20de%20Contraseñas-%20Terminado-blackgreen?style=for-the-badge&logo=github" 
-      alt="Sistema de Préstamos"/>
-  </a>
-  
-  <!-- Proyecto 6 -->
-  <a href="https://github.com/antonyyomar-dev/aerolinea_project">
-    <img 
-      src="https://img.shields.io/badge/Sistema%20de%20Aerolínea-%20Terminado-blackgreen?style=for-the-badge&logo=github" 
-      alt="Sistema de Préstamos"/>
-  </a>
-  
+### ☁️ Cloud & DevOps
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
 </div>
 
+---
 
-<!------------------------------------------------- --------------------------------------------------------------------------------------------
-<!-- ======= CTA ======= -->
+## 📚 Currently Learning
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6366f1,100:0ea5e9&height=8&section=footer"/>
-  <p>💌 Shall we collaborate? <a href="https://www.instagram.com/antonyyomar002/?__pwa=1">Write me</a> or open a issue in my repository.</p>
+
+| Area | Topic | Status |
+|------|--------|--------|
+| 🏗️ Computer Science | Data Structures & Algorithms | 🔄 In Progress |
+| 🗃️ Database | Advanced SQL & Query Optimization | 🔄 In Progress |
+| 🐍 Python | Python for Data Science & Pandas | 🔄 In Progress |
+| ☁️ Cloud | AWS Fundamentals | 🔜 Starting Soon |
+
 </div>
-<!------------------------------------------------- -------------------------------------------------------------------------------------------- -->
+
+---
+
+## 🚀 Featured Projects
+
+<div align="center">
+
+| Project | Tech | Status | Link |
+|---------|------|--------|------|
+| 📚 Sistema de Biblioteca | Java | ✅ Completed | [View](https://github.com/antonyyomar-dev/PROYECTOS/tree/main/SISSTEMA%20BIBLIOTECA) |
+| 🛍️ Gestión de Productos | Java | 🔄 In Development | [View](https://github.com/antonyyomar-dev/PROYECTOS/tree/main/Gesti%C3%B3n%20de%20Productos) |
+| 🍽️ Sistema de Restaurante | Java | ✅ Completed | [View](https://github.com/antonyyomar-dev/PROYECTOS/tree/main/SISTEMA%20RESTAURANTE) |
+| 🏥 Sistema de Clínica | Java | 🔄 In Development | [View](https://github.com/antonyyomar-dev/PROYECTOS/tree/main/SISTEMA%20CL%C3%8DNICA) |
+| 🔐 Generador de Contraseñas | Python | ✅ Completed | [View](https://github.com/antonyyomar-dev/PROYECTOS/tree/7437487a09529009c63687b4dfb3ee8c03504b67/GENERADOR%20DE%20CONTRASE%C3%91AS%20WEB/APP/SRC) |
+| ✈️ Sistema de Aerolínea | Java | ✅ Completed | [View](https://github.com/antonyyomar-dev/aerolinea_project) |
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=antonyyomar-dev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7C3AED&icon_color=7C3AED&text_color=ffffff" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=antonyyomar-dev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7C3AED&text_color=ffffff" height="165"/>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=antonyyomar-dev&theme=tokyonight&hide_border=true&background=0D1117&ring=7C3AED&fire=7C3AED&currStreakLabel=7C3AED" height="165"/>
+
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=antonyyomar-dev&theme=darkhub&no-frame=true&column=6&margin-w=10"/>
+
+</div>
+
+---
+
+## 🌍 Activity Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=antonyyomar-dev&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=7C3AED&line=7C3AED&point=ffffff"/>
+
+</div>
+
 ---
 
 <div align="center">
 
-| 🌍 Star Geographic Distribution |
-| ----------- |
-| <img src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-map/thumbnail.png?activity=stars&repo_id=41986369&image_size=auto" width="500"/> |
+### 💌 Let's connect and build something amazing together!
+
+[![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antony-yomar-pe%C3%B1a-ro%C3%B1a-6b829b3a6)
+[![Email Me](https://img.shields.io/badge/Send%20an%20Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:antonyyomar2024203@gmail.com)
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer"/>
 
 </div>
-
-<!------------------------------------------------- --------------------------------------------------------------------------------------------
-
-
